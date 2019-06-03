@@ -1,4 +1,4 @@
-function sum(a,b) {
+function sum(a, b) {
     return a + b;
 }
 
@@ -7,5 +7,5 @@ test('Add 1 + 2 equals to 3', () => {
 });
 
 test('Add 1 + 1 not equals to 3', () => {
-    expect(sum(1,1)).toBe(3); //assert
+    expect(sum(1,1)).not.toBe(3); //assert
 });
