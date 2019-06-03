@@ -12,4 +12,3 @@ function getDivision(percentage) {
     }
   }
   module.exports = getDivision;
-  
